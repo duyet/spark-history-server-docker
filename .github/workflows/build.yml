@@ -9,7 +9,7 @@ jobs:
     name: Build for aws
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       name: Check out code
 
 
@@ -58,7 +58,7 @@ jobs:
     name: Build for gcp
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       name: Check out code
 
 
@@ -107,7 +107,7 @@ jobs:
     name: Build for azure
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       name: Check out code
 
 
