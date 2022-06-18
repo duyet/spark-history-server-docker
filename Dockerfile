@@ -1,4 +1,4 @@
-ARG SPARK_VERSION=v2.4.0
+ARG SPARK_VERSION=v3.1.1
 ARG SPARK_IMAGE=gcr.io/spark-operator/spark
 
 # Build platform: aws, gcp, azure
